@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    topics:
+      url: jdbc:sqlserver://localhost:1433;databaseName=Sales;encrypt=true;trustServerCertificate=true;
+      username: sa
+      password: tsqlt@1433
+      driverClassname: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    todos:
+      url: jdbc:sqlserver://localhost:1433;databaseName=training;encrypt=true;trustServerCertificate=true;
+      username: sa
+      password: tsqlt@1433
+      driverClassname: com.microsoft.sqlserver.jdbc.SQLServerDriver
